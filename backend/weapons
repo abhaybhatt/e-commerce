@@ -1,0 +1,14 @@
+express-validator    =    for validation middleware in routes
+crypto               =    for encrypted_password
+uuid                 =    for generating salt
+cookieParser         =    middleware to add and delete something in cookie 
+
+
+jsonwebtoken         =    used to create tokens
+express-jwt          =    used to authenticate tokens (check login or not)
+
+formidable           =    for accepting from data
+lodash               =    built in js functions
+
+
+fs                   =     file system module presend already in node js
