@@ -1,0 +1,33 @@
+.page_heading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.page_description {
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.page_footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: contain;
+  background-color: #5cb85c;
+}
+
+.page_footer h4 {
+  color: white;
+  text-align: center;
+}
+
+.page_footer button {
+  background-color: #f0ad4e;
+  color: #036116;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-decoration: none;
+}
