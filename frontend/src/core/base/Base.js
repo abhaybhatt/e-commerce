@@ -1,5 +1,6 @@
 import React from "react";
 import "./Base.css";
+import Menu from "../menu/Menu";
 const Base = ({
   heading = "Home Page",
   description = "This is page description",
@@ -8,6 +9,7 @@ const Base = ({
 }) => {
   return (
     <div>
+      <Menu />
       <div className="page_heading">{heading}</div>
       <div className="page_description">{description}</div>
       <div>{children}</div>
