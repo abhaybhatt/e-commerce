@@ -16,7 +16,7 @@ router.post("/signin",[
 ],signin);
 
 
-router.post("/test", isSignedIn,(req,res)=>{
+router.get("/test", isSignedIn,(req,res)=>{
     res.send("Authenticated")
 })
 

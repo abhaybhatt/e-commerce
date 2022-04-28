@@ -74,6 +74,7 @@ exports.signout = (req, res) => {
 };
 
 //middleware
+
 exports.isSignedIn = expressJWT({
   //expressJwt take care of next
   secret: process.env.SECRET,
